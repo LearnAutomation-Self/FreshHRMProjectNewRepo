@@ -26,6 +26,7 @@
          <configuration>
              <testFailureIgnore> false </testFailureIgnore>
              <forkCount>0</forkCount>
+             <Fork>true</Fork>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
