@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26019" started-at="2021-08-10T15:18:26 IST" finished-at="2021-08-10T15:18:52 IST">
+  <suite name="Suite" duration-ms="50157" started-at="2021-08-11T01:52:08 IST" finished-at="2021-08-11T01:52:58 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26019" started-at="2021-08-10T15:18:26 IST" finished-at="2021-08-10T15:18:52 IST">
+    <test name="Test" duration-ms="50157" started-at="2021-08-11T01:52:08 IST" finished-at="2021-08-11T01:52:58 IST">
       <class name="FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew@3043fe0e]" name="setUp" is-config="true" duration-ms="5687" started-at="2021-08-10T15:18:26 IST" finished-at="2021-08-10T15:18:32 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew@b2c9a9c]" name="setUp" is-config="true" duration-ms="6699" started-at="2021-08-11T01:52:08 IST" finished-at="2021-08-11T01:52:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="AdminTab()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew@3043fe0e]" name="AdminTab" duration-ms="20196" started-at="2021-08-10T15:18:32 IST" finished-at="2021-08-10T15:18:52 IST">
+        <test-method status="PASS" signature="AdminTab()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew@b2c9a9c]" name="AdminTab" duration-ms="20567" started-at="2021-08-11T01:52:15 IST" finished-at="2021-08-11T01:52:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdminTab -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew@3043fe0e]" name="tearDown" is-config="true" duration-ms="103" started-at="2021-08-10T15:18:52 IST" finished-at="2021-08-10T15:18:52 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew@b2c9a9c]" name="tearDown" is-config="true" duration-ms="72" started-at="2021-08-11T01:52:36 IST" finished-at="2021-08-11T01:52:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FreshHRMProjectTestCasesNew.HrmFreshprojHomeTestNew -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="FreshHRMProjectTestCasesNew.HrmFreshprojLoginTestNew">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojLoginTestNew@5c671d7f]" name="setUp" is-config="true" duration-ms="5502" started-at="2021-08-11T01:52:36 IST" finished-at="2021-08-11T01:52:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojLoginTestNew@5c671d7f]" name="Login" duration-ms="17168" started-at="2021-08-11T01:52:41 IST" finished-at="2021-08-11T01:52:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FreshHRMProjectTestCasesNew.HrmFreshprojLoginTestNew@5c671d7f]" name="tearDown" is-config="true" duration-ms="101" started-at="2021-08-11T01:52:58 IST" finished-at="2021-08-11T01:52:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FreshHRMProjectTestCasesNew.HrmFreshprojLoginTestNew -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
